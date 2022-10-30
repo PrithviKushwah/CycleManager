@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.App {
+    text-align: center;
+}
+
+.w3-top {
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.bar {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000b2;
+}
+
+.items {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    outline: 0;
+    border: none;
+    display: inline-block;
+    padding: 8px 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Calibri Light";
+    text-align: center;
+    cursor: pointer;
+}
+
+.padding {
+    padding: 25px 35px !important;
+}
+
+.right {
+    float: right;
+    padding-right: 40px;
+}
+
+.left {
+    padding-left: 40px;
+}
+
+.bgimg {
+    background-image: url(https://cdn.bajabikes.eu/wp-content/uploads/2015/12/27222053/7967fb5e-24cb-4f18-8a54-17cad67cef63-e1463324483757.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+:hover.items {
+    color: yellow;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.logo img {
+    width: 13%;
+}
+
+.logo p {
+    font-size: 40px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.678);
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 30px;
+}
+
+.heading {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.heading img {
+    width: 50px;
+}
+
+.heading {
+    padding: 70px;
+}
+
+.text {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.line {
+    /* border: 1px solid grey;
+    width: 400px;
+    margin: auto; */
+    width: 400px;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.imgitems {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.13);
+}
+
+.w25 {
+    width: 25%;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 6px 6px 8px 8px #bbb8b87d;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.w25 img {
+    width: 100%;
+}
+
+.abtitem {
+    font-size: 21px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.desc {
+    padding: 18px;
+    font-size: 16px;
+    color: blue;
+    width: 60%;
+}
+
+.parts {
+    display: flex;
+}
+
+.btn {
+    width: 40%;
+    padding-top: 25px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px 25px;
+    background-color: blue;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+:hover.btn {
+    transform: scale(1.1);
+}
+
+.searchbar input[type=text] {
+    padding: 20px;
+    margin: 8px;
+    margin-right: 16px;
+    font-size: 20px;
+    width: 450px;
+    border: none;
+}
+
+.searchbar {
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 5px;
+}
+
+.withicon {
+    border: 1px solid grey;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.locimg {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 60px;
+}
+
+.w20 {
+    width: 20%;
+    padding: 15px;
+    background-color: white;
+    padding: 40px;
+}
+
+.w20 img {
+    width: 100%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.abtloc {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.flexcont {
+    background-color: rgba(128, 128, 128, 0.13);
+    padding: 60px;
+    overflow: hidden;
+}
+
+.mainicon {
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+}
+
+.mainicon p {
+    font-size: 50px;
+    padding-left: 200px;
+    padding-right: 150px;
+    align-items: center;
+}
+
+.myicons p {
+    /* float: right; */
+}
+
+.icontext {
+    font-size: 20px;
+    width: 50%;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.mainform {
+    padding: 40px;
+    background-color: white;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgba(128, 128, 128, 0.13);
+}
+
+input[type=submit] {
+    color: white;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: blue;
+}
+
+input[type=submit]:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    ;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.form {
+    width: 40%;
+}
+
+.parentform {
+    background-color: rgba(128, 128, 128, 0.13);
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+.formheading {
+    text-align: center;
+    font-size: 40px;
+    color: green;
+}
+
+.mainicon p h6 {
+    font-size: 20px !important;
+}
+
+.maincont {
+    padding: 40px;
+}
+
+
+/* ................................................... */
+
+.mainapp {
+    padding: 40px;
+    width: 40%;
+    align-items: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: rgba(128, 128, 128, 0.13);
+}
+
+input[type="text"],
+input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+    background: #6cf0c2;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.list-container {
+    display: flex;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.form2 {
+    width: 70%;
+}
